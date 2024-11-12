@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.smooth {
+	@apply transition ease-in-out duration-300;
+}
+
+.spotter_pagepad {
+	@apply pt-[4.5rem] lg:px-[10rem] xl:px-[18rem] 2xl:px-[24rem] py-[4rem];
+}
